@@ -1,0 +1,12 @@
+{%  extends "base.jinja" %}
+   {% block title %}
+     <title>Chore List</title>
+   {% endblock %}
+     {% block content %}
+        <h1> Chore List </h1>
+        <ul>
+        {% for chore in chores %}
+            <li><b><a href="/chore_list/{{ay}}/{{ chore.number }}{{ chore.title }}">{{ chore.number }}{{ chore.title }}</a> - {{ chore.description }}</b></li>
+        {% endfor %}
+        </ul>
+     {% endblock %}
