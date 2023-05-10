@@ -1,10 +1,10 @@
 {% extends "base.jinja" %}
    {% block title %}
-     <title>Teaching Schedule</title>
+     <title>Chore Schedule</title>
    {% endblock %}
      {% block content %}
 
-     <h1> Teaching Schedule </h1>
+     <h1> Chore Schedule </h1>
     
      <svg height="900" width="900">
      {% for day in daypos %}
@@ -31,15 +31,10 @@
      <hr/>
      <table class="table" style="margin-bottom: 30px" border="1">
       <tr bgcolor="#9acd32">
-          <th>Instructor Name</th>
-          <th>Instructor ID</th>
-          <th>Course</th>
-          <th>Section</th>
-          <th>Start Time</th>
-          <th>End Time</th>
-          <th>Days</th>
-          <th>Building</th>
-          <th>Max Enrollment</th>
+          <th>Child Name</th>
+          <th>Child ID</th>
+          <th>Chore</th>
+          <th>Description</th>
       </tr>
         {% for section in sections %}
                 <tr>
