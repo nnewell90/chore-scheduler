@@ -1,5 +1,5 @@
-# scheduling-dashboard
-An app to help build curriculum and create teaching schedules
+# chore-dashboard
+An app to help create chore schedules
 
 ## python dependencies
 * django
